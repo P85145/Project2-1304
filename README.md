@@ -1,5 +1,6 @@
 Project2-1304
 =============
+
 //alert("JavaScript works!");
 
 // Cerelia Williams
@@ -9,20 +10,36 @@ Project2-1304
 
 
 // My variables
-var makeFood = "Let's make a pizza!"
+var makeFood = "I'm hungry, let's make a pizza"
 var numPepperoni = 20
-var pizzaTop = ["Pizza Sauce", "Cheese", "Spinach", "Pepperoni"]
+var myArray = ["Pizza Sauce", "Cheese", "Spinach", "Pepperoni"]
 
 // Procedure
-
+console.log("Hmmm... " + makeFood + "!");
+console.log("I will be full after eating this pizza.");
+if ("I am hungry." === true) {
+  //what happens if true
+	if (makeFood +  ", it will fill my stomach.");
+		console.log("I won't be hungry after I eat the pizza.");
+	} else {
+		console.log("I won't need to eat.");
+	}
 
 
 // Boolean Function
-
+if (makeFood === true) {
+	if (numPepperoni <= 20) {
+		numPepperoni = numPepperoni + 10;
+		console.log("If there are " + numPepperoni + " pepperoni on the pizza it will taste great!");
+	} else {
+		numPepperoni = numPepperoni - 15;
+		console.log("There isn't " + numPepperoni + " pepperoni on the pizza and its not enough.");
+	}
 
 
 // Number Function
-
+if (nu
+	
 
 
 // String Function
@@ -30,12 +47,20 @@ var pizzaTop = ["Pizza Sauce", "Cheese", "Spinach", "Pepperoni"]
 
 
 // Array Function
+console.log("The pizza ingredients are  " + myArray");
+for (var i = 0; i < myArray.length; i++){
+	console.log("I will add " + myArray[i] + " to the pizza.");
+}
 
 
 
 
 // Returned Values
-
+myArray.push("Pizza Sauce", "Cheese", "Spinach", "Pepperoni");
 
 
 // Output
+console.log("Yes, " + makeFood + ".");
+console.log("I've got the pizza crust now lets add " + myArray);
+console.log("Pepperoni is my favorite topping so I want to add " + numPepperoni);
+
