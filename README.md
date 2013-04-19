@@ -18,13 +18,12 @@ var myArray = ["Pizza Sauce", "Cheese", "Spinach", "Pepperoni"]
 console.log("Hmmm... " + makeFood + "!");
 console.log("I will be full after eating this pizza.");
 if ("I am hungry." === true) {
-  //what happens if true
-	if (makeFood +  ", it will fill my stomach.");
+	//what happens if true
+	if (makeFood +  ", it will fill my stomach.")
 		console.log("I won't be hungry after I eat the pizza.");
 	} else {
 		console.log("I won't need to eat.");
 	}
-
 
 // Boolean Function
 if (makeFood === true) {
@@ -36,24 +35,22 @@ if (makeFood === true) {
 		console.log("There isn't " + numPepperoni + " pepperoni on the pizza and its not enough.");
 	}
 
-
 // Number Function
-if (nu
-	
+var allPepperoni = function(value) {}
+var x = 20
+	if (valueOf(math.round(x >= 20)))
 
 
 // String Function
-
-
+var question = function(makeFood) { return "I'm hungry, let's make a pizza."};
+	question("How are you feeling?");
+	
 
 // Array Function
-console.log("The pizza ingredients are  " + myArray");
+console.log("The pizza ingredients are  " + myArray + ".");
 for (var i = 0; i < myArray.length; i++){
 	console.log("I will add " + myArray[i] + " to the pizza.");
 }
-
-
-
 
 // Returned Values
 myArray.push("Pizza Sauce", "Cheese", "Spinach", "Pepperoni");
@@ -64,3 +61,8 @@ console.log("Yes, " + makeFood + ".");
 console.log("I've got the pizza crust now lets add " + myArray);
 console.log("Pepperoni is my favorite topping so I want to add " + numPepperoni);
 
+
+
+ 
+
+}
